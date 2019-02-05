@@ -24,4 +24,5 @@ body stackable{
 html {
     background-image: url("../images/certbg.jpg");
     background-size: cover;
+    width: 960px;
 }

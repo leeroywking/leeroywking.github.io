@@ -19,6 +19,9 @@ body cyber{
 body stackable{
     float: center;
     align-items: center;
+}
+
+body {
     background-image: url("../images/certbg.jpg");
     background-size: cover;
 }

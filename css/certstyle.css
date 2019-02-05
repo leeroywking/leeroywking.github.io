@@ -9,21 +9,6 @@ html{
     max-width: 960px;
 }
 
-body infra{
-    float: left;
-    align-items: left;
-}
-
-body cyber{
-    float: right;
-    align-items: right;
-}
-
-body stackable{
-    float: center;
-    align-items: center;
-}
-
 html {
     background-image: url("../images/certbg.jpg");
     background-size: cover;
@@ -41,4 +26,8 @@ h2{
     font-size: 60;
     color: red;
     text-shadow: 1px 1px white;
+}
+
+cyber{
+    float:right;
 }

@@ -27,6 +27,7 @@ html {
     width: 960px;
 }
 h1 {
-    font-size: 40;
+    font-size: 60;
     color: white;
+    text-shadow: 2px 2px black;
 }

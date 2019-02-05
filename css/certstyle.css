@@ -7,12 +7,15 @@ html{
 
 infra{
     max-width: 300px;
+    float: left;
 }
 
 cyber {
     max-width: 300px;
+    float: right;
 }
 
 stackable {
     max-width: 300px;
+    float: center;
 }

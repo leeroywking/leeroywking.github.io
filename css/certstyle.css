@@ -1,6 +1,6 @@
 img {
     max-width: 150px;
-    box-shadow: 1px 1px 1px 2px blue;
+    box-shadow: 1px 1px 1px 2px red;
     padding: 0px;
     margin: 2px;
 }
@@ -28,16 +28,17 @@ html {
     background-image: url("../images/certbg.jpg");
     background-size: cover;
     width: 960px;
+
 }
 h1{
-    font-weight: bold;
+    /* font-weight: ; */
     font-size: 80;
-    color: white;
-    text-shadow: 2px 2px blue;
+    color: red;
+    text-shadow: 1px 1px white;
 }
 h2{
     font-weight: bold;
     font-size: 60;
-    color: white;
-    text-shadow: 2px 2px blue;
+    color: red;
+    text-shadow: 1px 1px white;
 }

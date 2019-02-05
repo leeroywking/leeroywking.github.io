@@ -4,3 +4,15 @@ img {
 html{
     background-color: azure
 }
+
+infra{
+    max-width: 300px;
+}
+
+cyber {
+    max-width: 300px;
+}
+
+stackable {
+    max-width: 300px;
+}

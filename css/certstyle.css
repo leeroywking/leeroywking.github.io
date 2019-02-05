@@ -21,7 +21,7 @@ body stackable{
     align-items: center;
 }
 
-body {
+html {
     background-image: url("../images/certbg.jpg");
     background-size: cover;
 }

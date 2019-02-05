@@ -7,19 +7,16 @@ html{
 }
 
 body infra{
-    max-width: 320px;
     float: left;
     align-items: left;
 }
 
 body cyber{
-    max-width: 320px;
     float: right;
     align-items: right;
 }
 
 body stackable{
-    max-width: 320px;
     float: center;
     align-items: center;
 }

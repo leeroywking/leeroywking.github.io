@@ -2,20 +2,24 @@ img {
     max-width: 150px;
 }
 html{
-    background-color: azure
+    background-color: azure;
+    max-width: 960px;
 }
 
-infra{
-    max-width: 300px;
+body infra{
+    max-width: 320px;
     float: left;
+    align-items: left;
 }
 
-cyber {
-    max-width: 300px;
+body cyber{
+    max-width: 320px;
     float: right;
+    align-items: right;
 }
 
-stackable {
-    max-width: 300px;
+body stackable{
+    max-width: 320px;
     float: center;
+    align-items: center;
 }

@@ -6,7 +6,9 @@ img {
     margin: 2px;
 
 }
-
+img.noborder{
+  box-shadow: 0px 0px 0px 0px black; 
+}
 html {
     background-image: url("../images/certbg.jpg");
     background-size: cover;

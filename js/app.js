@@ -1,7 +1,7 @@
 'use strict'
 var successes = 0
 // This function will turn a y/yes/n/no into a uniform output regardless of capitalization or length of response, it also returns false if no yes/no/y/n is entered
-function testingLogicnotforproduction{
+
 function inputClean(input) {
   // This command takes the input and makes it lowercase
   input = input.toLowerCase();
@@ -34,13 +34,13 @@ function testQuestion() {
   return answer;
   }
 
-var testAnswer = testQuestion()
+// var testAnswer = testQuestion()
  // This would be the way you call the answer to assess if they got it right 
-var cleanTestAnswer = inputClean(testAnswer);
+// var cleanTestAnswer = inputClean(testAnswer);
  // This logs the groomed answer
 //  console.log("standardized input is " + cleanTestAnswer);
 // I commented this line out since i incorporated it into the input clean function
-}
+
 
 function question1(){
 function quest1() {
@@ -169,7 +169,7 @@ for (var guesses = 6; guesses > 0; guesses--){
 
 var name = prompt("What is your name")
 
-question1();
+// question1();
 question2();
 question3();
 question4();

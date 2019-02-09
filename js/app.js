@@ -1,7 +1,7 @@
 'use strict'
-'use strict';
 var successes = 0
 // This function will turn a y/yes/n/no into a uniform output regardless of capitalization or length of response, it also returns false if no yes/no/y/n is entered
+function testingLogicnotforproduction{
 function inputClean(input) {
   // This command takes the input and makes it lowercase
   input = input.toLowerCase();
@@ -40,6 +40,8 @@ var cleanTestAnswer = inputClean(testAnswer);
  // This logs the groomed answer
 //  console.log("standardized input is " + cleanTestAnswer);
 // I commented this line out since i incorporated it into the input clean function
+}
+
 function question1(){
 function quest1() {
   var answer1 = prompt('Do you think I have ever been in a fight? y/n/yes/no')

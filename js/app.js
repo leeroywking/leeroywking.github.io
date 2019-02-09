@@ -139,6 +139,10 @@ var answer6 = prompt('How old do you think I am? # format please')
     answer6 = prompt('Try again, how old am I? You were too high \(jerk\) last time.')
     i++;
     }
+  else {
+    answer6 = prompt("try entering a number this time");
+    i++;
+    }
   }
 }
 

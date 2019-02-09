@@ -3,6 +3,28 @@ img {
     float: right;
     /* max-width: 350px; */
 }
-#armyimage{
+#armyimage {
     height: 175px;
+}
+.job {
+    float: left;
+    padding: 20px;
+}
+.amazon{
+    max-width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+.caci{
+    max-width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+.army{
+    max-width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+.amazon img{
+    float:left;
 }

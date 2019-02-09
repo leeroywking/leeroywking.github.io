@@ -1,4 +1,5 @@
 'use strict'
+function totalQuiz(){
 var successes = 0
 // This function will turn a y/yes/n/no into a uniform output regardless of capitalization or length of response, it also returns false if no yes/no/y/n is entered
 
@@ -177,3 +178,4 @@ question5();
 question6();
 question7();
 alert(" Congratulations " + name + " you got " + successes + "/7 questions correct");
+}

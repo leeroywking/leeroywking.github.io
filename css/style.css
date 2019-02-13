@@ -76,7 +76,7 @@ text-align:right;
 }
   
 body article1{
-  height: 500px;
+  height: 100%;
   display: block;
   margin: auto;
   width: 90%;
@@ -95,7 +95,7 @@ body article1{
 }
 
 body article2{
-  height: 700px;
+  height: 105%;
   display: block;
   margin: auto;
   width: 90%;
@@ -120,7 +120,7 @@ article2 img{
 }
 
 body article3{
-  height: 100px;
+  height: 100%;
   display: block;
   margin: auto;
   width: 90%;
@@ -151,7 +151,7 @@ article4 img{
 }
 
 body article4{
-  height: 500px;
+  height: 100%;
   display: block;
   margin: auto;
   width: 90%;

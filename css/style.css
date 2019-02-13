@@ -48,9 +48,6 @@
     padding: 20px;
     min-height: 50px;
   }
- html{
-    background-color: rgb(231, 225, 225);
-  }
 
 
 
@@ -83,8 +80,9 @@ body article1{
   display: block;
   margin: auto;
   width: 90%;
-  border: 3px solid green;
+  border: 3px transparent green;
   padding: 10px;
+  background-color:tan;
 }
 
 .art1text{
@@ -101,8 +99,9 @@ body article2{
   display: block;
   margin: auto;
   width: 90%;
-  border: 3px solid green;
+  border: 3px transparent green;
   padding: 10px;
+  background-color:grey;
 }
 article2 img{
   max-width:19%;
@@ -125,8 +124,9 @@ body article3{
   display: block;
   margin: auto;
   width: 90%;
-  border: 3px solid green;
+  border: 3px transparent green;
   padding: 10px;
+  background-color:tan;
 }
 
 
@@ -155,7 +155,7 @@ body article4{
   display: block;
   margin: auto;
   width: 90%;
-  border: 3px solid green;
+  border: 3px transparent green;
   padding: 10px;
 }
 body article5{
@@ -163,6 +163,16 @@ body article5{
   display: block;
   margin: auto;
   width: 90%;
-  border: 3px solid green;
+  border: 3px transparent green;
   padding: 10px;
+}
+
+html{
+  /* background-color: rgb(231, 225, 225); */
+  background-image: url("../images/pano.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+body {
+
 }

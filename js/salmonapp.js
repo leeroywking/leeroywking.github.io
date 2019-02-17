@@ -87,11 +87,9 @@ function LocationConstructor(max,min,cookiepersale,htmlElementId,staffID,rowTitl
       liEl.textContent = `${nec} `;
       staffID.appendChild(liEl);
     }
-
-    
-
     var emptotal = document.createElement('td');
-    emptotal.textContent = `${highest} Employees.`;
+    emptotal.textContent = `${highest} employees`;
+    this.employeesByHour.push(highest);
     staffID.appendChild(emptotal);
   }
 };

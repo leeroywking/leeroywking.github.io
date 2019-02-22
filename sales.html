@@ -3,35 +3,48 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Lab 7</title>
-  <link href="css/salmonstyle.css" type="text/css" rel="stylesheet">
+  <title>Lab 8</title>
+  <link href="css/style.css" type="text/css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Coiny|ZCOOL+QingKe+HuangYou" rel="stylesheet">
 </head>
 
 <body>
-    <a href="index.html">Back to the homepage</a>
+  <a href="index.html">Back to the homepage</a>
   <h1>Salmon cookie sales by location</h1>
 
-  <table>
-    <tr id="tablehead"></tr>
-    <tr id="1andpike"></tr>
-    <tr id="seatac"></tr>
-    <tr id="seacenter"></tr>
-    <tr id="caphill"></tr>
-    <tr id="alkibeach"></tr>
+  <table id="tablemain">
+    <tbody id="tablebody">
+      <tr id="tablehead"></tr>
+    </tbody>
     <tr id="rowtotals"></tr>
+
   </table>
-  <h1>Staffing requirement, Number of necessary Employees</h1>
-  <table>
-    <tr id="tableheadstaff"></tr>
-    <tr id="1andpikestaff"></tr>
-    <tr id="seatacstaff"></tr>
-    <tr id="seacenterstaff"></tr>
-    <tr id="caphillstaff"></tr>
-    <tr id="alkibeachstaff"></tr>
-    <tr id="rowtotalsstaff"></tr>
-  </table>
+
+
+  <form id="newstore-form">
+    <fieldset>
+      <legend>New Store Tool</legend>
+
+      <label for="max">Max?</label>
+      <input name="max" type="number" />
+
+      <label for="min">Min?</label>
+      <input name="min" type="number" />
+
+      <label for="avg">Avg?</label>
+      <input name="avg" type="text" />
+
+      <label for="name">Name?</label>
+      <input name="name" type="text" />
+
+      <button type="submit">Create New Store</button>
+    </fieldset>
+  </form>
+  <ul id="newstore-list"></ul>
+
   <script src="js/salmonapp.js"></script>
 </body>
 
 </html>
+
+<!-- var firstAPObject = new LocationConstructor(65,23,6.3,firstAndPike,'First and Pike'); -->

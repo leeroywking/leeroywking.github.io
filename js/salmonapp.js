@@ -141,7 +141,7 @@ function handleStoreSubmit(event) {
   // debugger;
   if (max <= min || max <= 0 || min <= 0 || avg <= 0 ||
     max > 5000 || min > 5000 || avg > 5000) {
-    alert('Max must be greater than min, no negative numbers; I\'m a little teapot. Don\'t fill me up.');
+    alert('Max must be greater than min, no negative numbers; I\'m a little teapot. Don\'t fill me up. No empty fields.');
   }
   // debugger;
   else {

@@ -47,6 +47,7 @@
     margin: 20px;
     padding: 20px;
     min-height: 50px;
+    position:fixed;
   }
 
 
@@ -73,6 +74,11 @@ text-align:right;
   margin-right: auto;
   width: 40%;
 
+}
+
+body article6{
+  display:block;
+  height:150px;
 }
   
 body article1{

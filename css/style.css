@@ -69,12 +69,13 @@ text-align:right;
   margin-left: 475px;
 }
 .firstimg img{
-  max-width: 100%;
+  /* max-width: 100%; */
   /* border-radius: 15%; */
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* width: 40%; */
+  width:864px;
+  height:316.29;
 
 }
 
